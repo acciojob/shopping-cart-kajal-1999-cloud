@@ -41,9 +41,9 @@ let newRow = document.createElement('tr');
 
 	grand_total.innerHTML = 'Grand Total: ₹' + GrandTotal ;
 
-	itemName.innerText = '';
-	itemQuantity.innerText = '';
-	itemPrice.innerText = '';
+	itemName.value = '';
+	itemQuantity.value = '';
+	itemPrice.value = '';
 })
 
 
